@@ -1,0 +1,22 @@
+{
+    "tsconfig": "tsconfig.json",
+    "entryPoints": [
+        "./src/components",
+        "./src/functions",
+        "./src/types",
+        "./src/views"
+    ],
+    "entryPointStrategy": "Expand",
+    "excludeExternals": true,
+    "disableSources": true,
+    "out": "docs",
+    "theme": "default",
+    "name": "PublicSquare Progressive Web App",
+    "includeVersion": true,
+    "readme": "none",
+    "categorizeByGroup": true,
+    "githubPages": false,
+    "hideGenerator": true,
+    "plugin": "none",
+    "treatWarningsAsErrors": true
+}
